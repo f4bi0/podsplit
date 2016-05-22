@@ -1,7 +1,15 @@
 # podsplit
 Allows you to split podcast into separate audio files, each file named after the text spoken. 
 
-This program is written in php and can only be used by the command line. Also, you need to have to sox lib installed with the mp3 handler (in case you will be using mp3 files).
+This program is written in php and can only be used by the command line. Also, you need to have to sox command line utility installed with the mp3 handler (in case you will be using mp3 files).
+
+You can install sox with:
+
+	sudo apt-get install sox
+
+After, if you want to install the mp3 handler, run:
+	
+	sudo apt-get install libsox-fmt-mp3
 
 # How it works
 You must upload an input.mp3 or input.wav file inside your cloned podsplit folder. This will be the podcast itself, containing some stuff being spoken.
